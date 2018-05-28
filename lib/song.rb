@@ -22,9 +22,10 @@ class Song
   end
 
   def artist_count
+    @@artist.uniq
   end
 
   def self.count
-    @@song.count
+    @@count
   end
 end
