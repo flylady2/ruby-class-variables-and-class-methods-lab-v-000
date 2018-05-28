@@ -35,5 +35,6 @@ class Song
       genre_count[v] += 1
     end
     genre_count
+  end
 
 end
