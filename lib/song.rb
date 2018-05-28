@@ -37,5 +37,6 @@ class Song
   def self.artist_count
     artist_count = @@artists.group_by{|i| i}.map{|k,v|[k, v.count]}
     artist_count.to_h
+  end
 
 end
